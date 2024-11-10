@@ -1,12 +1,14 @@
-import Navbar from './Navbar'
-
+import Navbar from './navbar/Navbar'
+import Header from './header/Header';
+import Footer from './footer/Footer';
 function App() {
 
   return (
     <>
     <Navbar/>
-    <p>dasdasda</p>
-      </>
+    {/* <Header/> */}
+    {/* <Footer/> */}
+    </>
     
   )
 }
