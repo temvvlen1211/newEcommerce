@@ -18,14 +18,15 @@ function Navbar() {
 
           {/* page */}
           <div
-            className="relative items-center justify-between hidden md:flex md:w-auto md:order-1"
+            className="items-center justify-between hidden md:flex md:w-auto md:order-1"
             id="navbar-user"
           >
-            <ul className="flex   before:content-[''] absolute top-0 font-medium uppercase border border-gray-100 rounded-lg md:p-0 bg-[#202020] gap-10 rtl:strokeLinejoin md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-[#202020] md:dark:bg-[#202020] dark:border-gray-700">
-              <li className="">
+            <ul className="flex font-medium uppercase border border-gray-100 rounded-lg gap-7 md:p-0 rtl:strokeLinejoin md:flex-row md:mt-0 md:border-0 ">
+              <li className="relative ">
+                {/* <div className="before:content-['--'] absolute top-0  bg-cyan-500"></div> */}
                 <a
                   href="#"
-                  className="block text-white bg-white rounded md:bg-transparent md:text-white md:dark:text-white md:hover:text-red-500"
+                  className="block md:bg-transparent md:text-white md:dark:text-white md:hover:text-red-500"
                   aria-current="page"
                 >
                   Home
@@ -81,10 +82,10 @@ function Navbar() {
           </div>
 
           {/* dropdown toggle  */}
-          <div className="flex items-center justify-center gap-10 space-x-3 md:order-2 md:space-x-0 rtl:strokeLinejoin">
+          <div className="flex items-center space-x-3 md:order-2 md:space-x-0 rtl:strokeLinejoin">
             <button
               type="button"
-              className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+              className="hidden text-sm bg-gray-800 rounded-full md:block md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
               id="user-menu-button"
               aria-expanded="false"
               data-dropdown-toggle="user-dropdown"
@@ -97,13 +98,13 @@ function Navbar() {
             >
               <img
                 className="w-8 h-8 rounded-full"
-                src="https:via.placeholder.com/100x100"
+                src="../public/img/kostum.jpg"
                 alt="user photo"
               />
             </button>
             <button
               type="button"
-              className="p-3 text-sm font-medium text-center text-red-700 uppercase border border-red-700 rounded-lg hover:text-white hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
+              className="hidden p-3 text-sm font-medium text-center text-red-700 uppercase border border-red-700 rounded-lg md:block hover:text-white hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
             >
               book now
             </button>
