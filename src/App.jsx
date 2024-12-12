@@ -1,16 +1,16 @@
-import Navbar from './navbar/Navbar'
-import Header from './header/Header';
-import Footer from './footer/Footer';
-function App() {
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
+function App() {
   return (
     <>
-    <Navbar/>
-    {/* <Header/> */}
-    {/* <Footer/> */}
+      <Header />
+      {/* <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes> */}
+      <Footer />
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
