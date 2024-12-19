@@ -65,7 +65,7 @@ function Footer() {
               <a href="" class="hover:underline">
                 Flowbite™
               </a>
-              . All Rights Reserved.
+              All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a
