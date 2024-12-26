@@ -3,9 +3,9 @@ import Logo from "../svg/logo";
 function Footer() {
   return (
     <>
-      <footer class=" flex justify-center items-center bg-[#202020]  dark:bg-gray-900">
-        <div class=" w-full container  lg:py-8">
-          <div class="md:flex md:justify-between">
+      <footer class=" flex justify-center items-center dark:bg-[#202020] py-8  ">
+        <div class=" w-full container  ">
+          <div class="grid grid-cols-3 gap-4">
             <a
               href=""
               className="flex items-center space-x-3 rtl:strokeLinejoin"
@@ -15,57 +15,100 @@ function Footer() {
                 barbercrop
               </span>
             </a>
-            <div class="flex ">
-              <div>
+            <div>
+              <div className="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                >
+                  <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+                </svg>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Resources
+                  +1 234 567 890
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                  <li class="mb-4">
-                    <a href="https://flowbite.com/" class="hover:underline">
-                      Flowbite
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://tailwindcss.com/" class="hover:underline">
-                      Tailwind CSS
-                    </a>
-                  </li>
-                </ul>
               </div>
-              <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                  Follow us
-                </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                  <li class="mb-4">
-                    <a
-                      href="https://github.com/themesberg/flowbite"
-                      class="hover:underline "
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <span>3891 Ranchview Dr. Richardson,</span>
+                </li>
+                <li>
+                  <span>California 62639</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                Subscribe our newsletter
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Luctus interdum volutpat urna neque varius congue.
+                  </span>
+                </li>
+                <li>
+                  <form class="max-w-md ">
+                    <label
+                      for="default-search"
+                      class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
                     >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://discord.gg/4eeurUVvTy"
-                      class="hover:underline"
-                    >
-                      Discord
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                      Search
+                    </label>
+                    <div class="relative">
+                      <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg
+                          class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                          />
+                        </svg>
+                      </div>
+                      <input
+                        type="search"
+                        id="default-search"
+                        class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Search "
+                        required
+                      />
+                      {/* <button
+                        type="submit"
+                        class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Search
+                      </button> */}
+                      <button
+                        type="submit"
+                        class="text-red-700 absolute end-2.5 bottom-2.5 rounded-md  hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium text-sm px-4 py-2  text-center  dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
+                      >
+                        Search
+                      </button>
+                    </div>
+                  </form>
+                </li>
+              </ul>
             </div>
           </div>
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+              <span href="" class="hover:underline">
+                Merkulove © Barbercrop Template &nbsp;
+              </span>
+              All rights reserved &nbsp;
               {new Date().getFullYear()}
-              <a href="" class="hover:underline">
-                Flowbite™
-              </a>
-              All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a
