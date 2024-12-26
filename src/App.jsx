@@ -1,13 +1,13 @@
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
+import Carousel from "./components/carousel";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes> */}
+      <Carousel />
+
       <Footer />
     </>
   );
