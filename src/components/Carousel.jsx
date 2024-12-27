@@ -35,8 +35,8 @@ const Carousel = () => {
 
   return (
     <div className="relative w-full h-full mx-auto">
-      <div>
-        <h1></h1>
+      <div className="absolute">
+        <h1>barbercrop</h1>
         <span></span>
       </div>
       {/* Slides */}
