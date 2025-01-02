@@ -35,7 +35,7 @@ const Carousel = () => {
 
   return (
     <div className="relative w-full h-full mx-auto">
-      <div className="absolute">
+      <div className="absolute w-full">
         <h1>barbercrop</h1>
         <span></span>
       </div>
