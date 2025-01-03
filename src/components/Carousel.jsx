@@ -16,7 +16,7 @@ const Carousel = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === slides.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change slide every 3 seconds
+    }, 10000); // Change slide every 3 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [slides.length]);
@@ -35,10 +35,6 @@ const Carousel = () => {
 
   return (
     <div className="relative w-full h-full mx-auto">
-      <div className="absolute w-full">
-        <h1>barbercrop</h1>
-        <span></span>
-      </div>
       {/* Slides */}
       <div className="overflow-hidden ">
         <div
@@ -50,13 +46,28 @@ const Carousel = () => {
               key={index}
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="flex-shrink-0 object-cover w-full max-h-[800px]"
+              className=" flex-shrink-0 object-cover w-full max-h-[800px]"
             />
           ))}
         </div>
       </div>
 
       {/* Navigation Buttons */}
+      <div className="absolute grid max-w-2xl gap-5 font-bold text-white top-1/3 left-1/4">
+        <h1 className="text-6xl ">We will keep you an impeccable look</h1>
+        <span className="text-xl">
+          3891 Ranchview Dr. Richardson, California 62639
+        </span>
+        <p>
+          <a
+            className="text-2xl transition-colors duration-500 hover:text-red-500"
+            href="tel:+97686993794"
+          >
+            86993794
+          </a>
+        </p>
+      </div>
+
       <button
         onClick={handlePrev}
         className="absolute p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 left-4 hover:bg-opacity-75"
