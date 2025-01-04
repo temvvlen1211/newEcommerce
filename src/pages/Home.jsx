@@ -1,11 +1,13 @@
 import Carousel from "../components/carousel";
 import Professional from "../components/Professional";
+import Services from "../components/Services";
 
 function Home() {
   return (
     <>
-      <Carousel />
-      <Professional />
+      {/* <Carousel /> */}
+      {/* <Professional /> */}
+      <Services />
     </>
   );
 }
