@@ -5,8 +5,8 @@ import Services from "../components/Services";
 function Home() {
   return (
     <>
-      {/* <Carousel /> */}
-      {/* <Professional /> */}
+      <Carousel />
+      <Professional />
       <Services />
     </>
   );
