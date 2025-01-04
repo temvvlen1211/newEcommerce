@@ -34,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full h-full mx-auto">
+    <div className="relative w-full h-full mx-auto pt-[125px]">
       {/* Slides */}
       <div className="overflow-hidden ">
         <div

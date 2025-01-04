@@ -5,7 +5,7 @@ import DropDownHeader from "./components/DropDownHeader";
 function Header() {
   return (
     <>
-      <header className=" flex justify-center items-center  w-full bg-[#202020] border-gray-200 dark:bg-[#202020]">
+      <header className="fixed top-0 flex justify-center items-center  w-full  border-gray-200 dark:bg-[#202020] z-50">
         <nav className="container flex flex-wrap items-center justify-between py-10 ">
           {/* logo */}
           <LogoHeader />

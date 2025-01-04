@@ -1,9 +1,11 @@
 import Carousel from "../components/carousel";
+import Professional from "../components/Professional";
 
 function Home() {
   return (
     <>
-      <Carousel />;
+      <Carousel />
+      <Professional />
     </>
   );
 }
