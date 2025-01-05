@@ -4,7 +4,7 @@ function Professional() {
   return (
     <>
       <section className="flex items-center justify-center py-20 text-white bg-[#202020]">
-        <div className="container flex justify-between gap-52 ">
+        <div className="container grid justify-between md:flex ">
           <div className="w-1/2 uppercase ">
             <h1 className="text-4xl font-bold">
               professional barbershop for men only

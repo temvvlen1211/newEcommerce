@@ -1,31 +1,8 @@
 import Burger from "../../svg/Burger";
-import { useState } from "react";
 
 function DropDownHeader() {
-  const [openProfile, setOpenProfile] = useState(false);
-
   return (
     <div className="flex items-center space-x-0 md:order-2 md:space-x-7 rtl:strokeLinejoin ">
-      <button
-        type="button"
-        className="hidden text-sm bg-gray-800 rounded-full md:block md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
-        id="user-menu-button"
-        aria-expanded="false"
-        data-dropdown-toggle="user-dropdown"
-        data-dropdown-placement="bottom"
-        onClick={() => {
-          setOpenProfile((prev) => {
-            openProfile && Dropdown;
-          });
-        }}
-      >
-        <img
-          className="w-8 h-8 rounded-full"
-          src="/img/kostum.jpg"
-          alt="user photo"
-        />
-      </button>
-
       <button
         type="button"
         className="hidden p-3 ml-6 text-sm font-medium text-center text-red-700 uppercase border border-red-700 rounded-lg md:block hover:text-white hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"

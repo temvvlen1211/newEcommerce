@@ -1,11 +1,11 @@
-import Logo from "../svg/logo";
+import Logo from "../svg/Logo";
 
 function Footer() {
   return (
     <>
       <footer class=" flex justify-center items-center dark:bg-[#202020] py-8  ">
         <div class=" w-full container  ">
-          <div class="grid grid-cols-3 gap-4">
+          <div class="grid  md:flex justify-between gap-5">
             <a
               href=""
               className="flex items-center space-x-3 rtl:strokeLinejoin"
@@ -39,7 +39,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="max-w-xl">
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Subscribe our newsletter
               </h2>

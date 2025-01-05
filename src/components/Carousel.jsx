@@ -53,30 +53,32 @@ const Carousel = () => {
       </div>
 
       {/* Navigation Buttons */}
-      <div className="absolute grid max-w-2xl gap-5 font-bold text-white top-1/3 left-1/4">
-        <h1 className="text-6xl ">We will keep you an impeccable look</h1>
-        <span className="text-xl">
-          3891 Ranchview Dr. Richardson, California 62639
-        </span>
-        <p>
-          <a
-            className="text-2xl transition-colors duration-500 hover:text-red-500"
-            href="tel:+97686993794"
-          >
-            86993794
-          </a>
-        </p>
+      <div className="absolute inset-y-0 flex items-center justify-center w-full font-bold text-white">
+        <div className="container grid gap-3">
+          <h1 className="text-6xl ">We will keep you an impeccable look</h1>
+          <span className="text-xl ">
+            3891 Ranchview Dr. Richardson, California 62639
+          </span>
+          <p>
+            <a
+              className="text-2xl transition-colors duration-500 hover:text-red-500"
+              href="tel:+97686993794"
+            >
+              86993794
+            </a>
+          </p>
+        </div>
       </div>
 
       <button
         onClick={handlePrev}
-        className="absolute p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 left-4 hover:bg-opacity-75"
+        className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 left-4 hover:bg-opacity-75 md:block"
       >
         &#8592;
       </button>
       <button
         onClick={handleNext}
-        className="absolute p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 right-4 hover:bg-opacity-75"
+        className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 right-4 hover:bg-opacity-75 md:block"
       >
         &#8594;
       </button>
