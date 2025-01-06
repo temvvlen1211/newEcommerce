@@ -7,11 +7,11 @@ import Services from "../components/Services";
 function Home() {
   return (
     <>
-      <Carousel />
-      <Professional />
-      <Services />
-      <Hours />
-      <Blog />
+      {/* <Carousel /> */}
+      {/* <Professional /> */}
+      {/* <Services /> */}
+      {/* <Hours /> */}
+      {/* <Blog /> */}
     </>
   );
 }
