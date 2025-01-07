@@ -20,7 +20,7 @@ function Blog() {
             </a>
             <div class=" pt-10">
               <a href="#">
-                <h5 class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white ">
+                <h5 class="text-3xl font-semibold tracking-tight  dark:text-white ">
                   5 advantages why you should visit barbershop
                 </h5>
               </a>
@@ -41,7 +41,7 @@ function Blog() {
             </a>
             <div class=" pt-10">
               <a href="#">
-                <h5 class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="text-3xl font-semibold tracking-tight  dark:text-white">
                   5 advantages why you should visit barbershop
                 </h5>
               </a>
@@ -62,7 +62,7 @@ function Blog() {
             </a>
             <div class=" pt-10">
               <a href="#">
-                <h5 class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="text-3xl font-semibold tracking-tight  dark:text-white">
                   5 advantages why you should visit barbershop
                 </h5>
               </a>
