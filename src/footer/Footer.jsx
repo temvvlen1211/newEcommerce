@@ -3,7 +3,7 @@ import Logo from "../svg/Logo";
 function Footer() {
   return (
     <>
-      <footer class=" flex justify-center items-center dark:bg-[#202020] py-8  ">
+      <footer class=" flex justify-center items-center bg-[#202020] py-8  ">
         <div class=" w-full container  ">
           <div class="grid  md:flex justify-between gap-5">
             <a
@@ -11,7 +11,7 @@ function Footer() {
               className="flex items-center space-x-3 rtl:strokeLinejoin"
             >
               <Logo />
-              <span className="self-center text-2xl font-semibold uppercase whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold uppercase whitespace-nowrap text-white">
                 barbercrop
               </span>
             </a>
@@ -26,7 +26,7 @@ function Footer() {
                 >
                   <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
                 </svg>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">
                   +1 234 567 890
                 </h2>
               </div>
@@ -40,7 +40,7 @@ function Footer() {
               </ul>
             </div>
             <div className="max-w-xl">
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 class="mb-6 text-sm font-semibold  uppercase text-white">
                 Subscribe our newsletter
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -54,14 +54,14 @@ function Footer() {
                   <form class="max-w-md ">
                     <label
                       for="default-search"
-                      class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                      class="mb-2 text-sm font-medium  sr-only text-white"
                     >
                       Search
                     </label>
                     <div class="relative">
                       <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                         <svg
-                          class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                          class="w-4 h-4 text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

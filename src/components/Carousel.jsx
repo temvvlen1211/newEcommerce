@@ -74,13 +74,13 @@ const Carousel = () => {
         onClick={handlePrev}
         className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 left-4 hover:bg-opacity-75 md:block"
       >
-        &#8592;
+        ←
       </button>
       <button
         onClick={handleNext}
         className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 right-4 hover:bg-opacity-75 md:block"
       >
-        &#8594;
+        →
       </button>
 
       {/* Indicators */}
