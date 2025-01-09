@@ -1,8 +1,8 @@
-import Blog from "../components/Blog";
-import Carousel from "../components/carousel";
-import Hours from "../components/Hours";
-import Professional from "../components/Professional";
-import Services from "../components/Services";
+import Blog from "../components/home/Blog";
+import Carousel from "../components/home/Carousel";
+import Hours from "../components/home/Hours";
+import Professional from "../components/home/Professional";
+import Services from "../components/home/Services";
 
 function Home() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../svg/Logo";
+import Logo from "../../svg/Logo";
 
 function Services() {
   const data = [
