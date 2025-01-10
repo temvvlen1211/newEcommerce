@@ -3,15 +3,15 @@ import React from "react";
 function MenOnly() {
   return (
     <>
-      <section className="flex items-center justify-center py-20 text-white bg-[#202020]">
-        <div className="container grid justify-between md:flex ">
-          <div className="w-1/2 uppercase ">
+      <section className="flex  items-center justify-center py-20 text-white bg-[#202020]">
+        <div className="container grid justify-between md:flex gap-10 ">
+          <div className="max-w-2xl uppercase ">
             <h1 className="text-4xl font-bold">
               professional barbershop for men only
             </h1>
             <span className="hidden">barbercrop</span>
           </div>
-          <div className="w-1/2 ">
+          <div className="max-w-2xl">
             <div className="flex gap-5 mb-10 ">
               <div>
                 <p className="text-2xl font-bold mb-7">Since 2015</p>

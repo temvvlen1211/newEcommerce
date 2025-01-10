@@ -3,15 +3,15 @@ import React from "react";
 function Professional() {
   return (
     <>
-      <section className="flex items-center justify-center py-20 text-white bg-[#202020]">
+      <section className="md:flex  items-center justify-center py-20 text-white bg-[#202020]">
         <div className="container grid justify-between md:flex ">
-          <div className="w-1/2 uppercase ">
+          <div className="max-w-2xl uppercase ">
             <h1 className="text-4xl font-bold">
               professional barbershop for men only
             </h1>
             <span className="hidden">barbercrop</span>
           </div>
-          <div className="w-1/2 ">
+          <div className="max-w-2xl ">
             <p className="mb-10 tracking-normal text-gray-500 md:text-lg dark:text-gray-400">
               Et tellus rhoncus urna a. Tempus felis, sociis lorem aliquet nibh
               pellentesque. Vitae nunc, dolor, blandit eget eleifend etiam id.

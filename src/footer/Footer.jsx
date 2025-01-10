@@ -16,7 +16,7 @@ function Footer() {
               </span>
             </a>
             <div>
-              <div className="flex">
+              <a className=" flex items-start text-2xl  " href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -26,10 +26,10 @@ function Footer() {
                 >
                   <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
                 </svg>
-                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">
+                <h2 class="mb-6 text-2xl font-semibold hover:text-red-500 duration-100  uppercase text-white">
                   +1 234 567 890
                 </h2>
-              </div>
+              </a>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <span>3891 Ranchview Dr. Richardson,</span>
@@ -40,7 +40,7 @@ function Footer() {
               </ul>
             </div>
             <div className="max-w-xl">
-              <h2 class="mb-6 text-sm font-semibold  uppercase text-white">
+              <h2 class="mb-6 text-2xl font-semibold  hover:text-red-500 duration-100 uppercase text-white">
                 Subscribe our newsletter
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
