@@ -3,7 +3,7 @@ import React from "react";
 function MenOnly() {
   return (
     <>
-      <section className="flex  items-center justify-center py-20 text-white bg-[#202020]">
+      <section className="flex  items-center justify-center my-20 text-white bg-[#202020]">
         <div className="container grid justify-between md:flex gap-10 ">
           <div className="max-w-2xl uppercase ">
             <h1 className="text-4xl font-bold">

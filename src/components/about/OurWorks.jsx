@@ -16,19 +16,19 @@ function OurWorks() {
           />
 
           <img
-            class="h-auto  transition-all duration-300  hover:scale-105 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            class="h-auto w-full transition-all duration-300  hover:scale-105 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
             alt="image description"
           />
 
           <img
-            class="h-auto  transition-all duration-300 rounded-lg  hover:scale-105 cursor-pointer filter grayscale hover:grayscale-0"
+            class="h-auto w-full  transition-all duration-300 rounded-lg  hover:scale-105 cursor-pointer filter grayscale hover:grayscale-0"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
             alt="image description"
           />
 
           <img
-            class="h-auto  transition-all duration-300 rounded-lg cursor-pointer hover:scale-105 filter grayscale hover:grayscale-0"
+            class="h-auto w-full transition-all duration-300 rounded-lg cursor-pointer hover:scale-105 filter grayscale hover:grayscale-0"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
             alt="image description"
           />

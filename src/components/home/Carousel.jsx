@@ -34,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full h-full mx-auto ">
+    <section className="relative w-full h-full mx-auto ">
       {/* Slides */}
       <div className="overflow-hidden ">
         <div
@@ -46,7 +46,7 @@ const Carousel = () => {
               key={index}
               src={slide}
               alt={`Slide ${index + 1}`}
-              className=" flex-shrink-0 object-cover w-full max-h-[800px]"
+              className=" h-[700px] flex-shrink-0 object-cover w-full md:h-[700px]\"
             />
           ))}
         </div>
@@ -54,19 +54,21 @@ const Carousel = () => {
 
       {/* Navigation Buttons */}
       <div className="absolute inset-y-0 flex items-center justify-center w-full font-bold text-white">
-        <div className="container grid gap-3">
-          <h1 className="text-6xl ">We will keep you an impeccable look</h1>
-          <span className="text-xl ">
-            3891 Ranchview Dr. Richardson, California 62639
-          </span>
-          <p>
-            <a
-              className="text-2xl transition-colors duration-500 hover:text-red-500"
-              href="tel:+97686993794"
-            >
-              86993794
-            </a>
-          </p>
+        <div className="container grid md:max-w-lg gap-3">
+          <div className=" grid md:max-w-lg gap-3">
+            <h1 className="text-6xl ">We will keep you an impeccable look</h1>
+            <span className="text-xl ">
+              3891 Ranchview Dr. Richardson, California 62639
+            </span>
+            <p>
+              <a
+                className="text-2xl transition-colors duration-500 hover:text-red-500"
+                href="tel:+97686993794"
+              >
+                86993794
+              </a>
+            </p>
+          </div>
         </div>
       </div>
 
@@ -74,13 +76,41 @@ const Carousel = () => {
         onClick={handlePrev}
         className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 left-4 hover:bg-opacity-75 md:block"
       >
-        ←
+        <svg
+          class="w-5 h-5 text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 8 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13"
+          ></path>
+        </svg>
       </button>
       <button
         onClick={handleNext}
         className="absolute hidden p-2 text-white transform -translate-y-1/2 bg-black bg-opacity-50 rounded-full top-1/2 right-4 hover:bg-opacity-75 md:block"
       >
-        →
+        <svg
+          class="w-5 h-5 text-white"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 8 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1"
+          ></path>
+        </svg>
       </button>
 
       {/* Indicators */}
@@ -95,7 +125,7 @@ const Carousel = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

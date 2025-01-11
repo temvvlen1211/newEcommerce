@@ -2,7 +2,7 @@ import React from "react";
 
 function Blog() {
   return (
-    <section className="flex items-center justify-center py-10">
+    <section className="flex items-center justify-center my-10">
       <div className="container text-white">
         <div className="pb-10 uppercase ">
           <h1 className="text-4xl font-bold">Our blog</h1>

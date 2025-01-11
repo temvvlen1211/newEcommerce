@@ -3,7 +3,7 @@ import Logo from "../svg/Logo";
 function Footer() {
   return (
     <>
-      <footer class=" flex justify-center items-center bg-[#202020] py-8  ">
+      <footer class=" flex justify-center items-center md:p-0 px-10 bg-[#202020] py-8  ">
         <div class=" w-full container  ">
           <div class="grid  md:flex justify-between gap-5">
             <a

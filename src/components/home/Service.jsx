@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../svg/Logo";
 
-function Services() {
+function Service() {
   const data = [
     {
       icon: <Logo />,
@@ -42,7 +42,7 @@ function Services() {
   ];
   return (
     <>
-      <section className="flex items-center justify-center py-10 text-white">
+      <section className="flex items-center justify-center my-10 text-white">
         <div className="container">
           <div className="max-w-full pb-10 md:max-w-lg">
             <p className="hidden">Services</p>
@@ -53,10 +53,10 @@ function Services() {
             </p>
           </div>
           <ul className="flex flex-wrap justify-between gap-5 ">
-            {data.map((item) => {
+            {data.map((item, index) => {
               return (
                 <>
-                  <li className="flex max-w-full md:max-w-md">
+                  <li key={index} className="flex max-w-full md:max-w-md">
                     <p>{item.icon}</p>
                     <div className="flex flex-col gap-5">
                       <h1 className="text-4xl uppercase">{item.name}</h1>
@@ -78,4 +78,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Service;
