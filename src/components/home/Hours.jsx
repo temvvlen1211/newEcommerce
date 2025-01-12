@@ -3,13 +3,13 @@ import React from "react";
 function Hours() {
   return (
     <>
-      <section className="relative my-10 font-bold">
+      <section className="relative py-10 font-bold">
         <img
-          className="relative object-cover h-[500px] w-full"
+          className="relative object-cover h-[700px] w-full"
           src="/img/room.jpg"
           alt="image description"
         />
-        <div className="absolute inset-0 flex items-center justify-center text-white ">
+        <div className="absolute inset-0 flex px-10 md:px-0 items-center justify-center text-white ">
           <div className="container grid gap-5 md:flex md:justify-between ">
             <div className="md:max-w-2xl">
               <h1 className=" text-4xl">

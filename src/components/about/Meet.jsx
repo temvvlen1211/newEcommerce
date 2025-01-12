@@ -3,10 +3,10 @@ import React from "react";
 function Meet() {
   return (
     <>
-      <section class="flex justify-center items-center my-10 text-white">
+      <section class="flex justify-center items-center text-center px-10 md:px-0 py-10 text-white">
         <div class="container">
           <h2 class=" text-4xl  font-extrabold ">Our team</h2>
-          <div class="grid px-20 md:flex md:justify-between md:p-0 my-10 gap-10 md:gap-5 w-full">
+          <div class="grid  md:flex md:justify-between my-10 gap-10 md:gap-5 w-full">
             <div class="text-center  ">
               <img
                 class="w-full object-cover  rounded-full"

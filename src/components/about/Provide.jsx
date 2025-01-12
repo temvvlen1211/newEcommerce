@@ -42,16 +42,18 @@ function Provide() {
   ];
   return (
     <>
-      <section className="flex justify-center text-white  items-center my-10">
+      <section className="flex justify-center text-white   px-10 md:px-0 items-center py-10">
         <div className="container">
-          <div className="flex items-center justify-between">
+          <div className="md:flex grid items-center text-center w-full gap-5 md:justify-between">
             <h1 className="text-3xl font-bold">What we provide</h1>
-            <button
-              type="button"
-              class="bg-gradient-to-r from-red-400 via-red-700 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm  p-3 text-center "
-            >
-              View services
-            </button>
+            <p>
+              <button
+                type="button"
+                class="bg-gradient-to-r from-red-400 via-red-700 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm  p-3 text-center "
+              >
+                View services
+              </button>
+            </p>
           </div>
           <ul className="flex flex-wrap justify-between gap-5  my-10">
             {data.map((item) => {

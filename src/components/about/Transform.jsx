@@ -3,13 +3,13 @@ import React from "react";
 const Transform = () => {
   return (
     <>
-      <section className="relative my-10 font-bold">
+      <section className="relative py-10  font-bold">
         <img
           className="relative object-cover h-96 w-full"
           src="/img/promo.jpg"
           alt="image description"
         />
-        <div className="absolute inset-0 flex items-center justify-center text-white ">
+        <div className="absolute inset-0 flex px-10 md:px-0 items-center justify-center text-white ">
           <div className="container grid md:flex justify-end ">
             <div className="md:max-w-lg ">
               <h1 className=" text-4xl">Ready to transform?</h1>

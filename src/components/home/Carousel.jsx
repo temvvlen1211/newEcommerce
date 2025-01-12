@@ -55,7 +55,7 @@ const Carousel = () => {
       {/* Navigation Buttons */}
       <div className="absolute inset-y-0 flex items-center justify-center w-full font-bold text-white">
         <div className="container grid md:max-w-lg gap-3">
-          <div className=" grid md:max-w-lg gap-3">
+          <div className=" grid px-10 md:px-0 md:max-w-lg gap-3">
             <h1 className="text-6xl ">We will keep you an impeccable look</h1>
             <span className="text-xl ">
               3891 Ranchview Dr. Richardson, California 62639

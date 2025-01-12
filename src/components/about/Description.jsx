@@ -3,7 +3,7 @@ import React from "react";
 function Description() {
   return (
     <>
-      <section className="flex justify-center items-center my-10">
+      <section className="flex justify-center items-center px-10 md:px-0 py-10">
         <div className="container">
           <img
             className="w-full object-cover"

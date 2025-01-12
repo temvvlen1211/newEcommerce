@@ -42,7 +42,7 @@ function Service() {
   ];
   return (
     <>
-      <section className="flex items-center justify-center my-10 text-white">
+      <section className="flex items-center justify-center px-10 md:px-0 py-10 text-white">
         <div className="container">
           <div className="max-w-full pb-10 md:max-w-lg">
             <p className="hidden">Services</p>

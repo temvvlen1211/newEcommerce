@@ -3,7 +3,7 @@ import React from "react";
 function Professional() {
   return (
     <>
-      <section className="md:flex  items-center justify-center my-20 text-white bg-[#202020]">
+      <section className="md:flex px-10 md:px-0 items-center justify-center py-10 text-white bg-[#202020]">
         <div className="container grid justify-between md:flex ">
           <div className="max-w-2xl uppercase ">
             <h1 className="text-4xl font-bold">

@@ -5,7 +5,7 @@ import Burger from "../svg/Burger";
 function Header() {
   return (
     <>
-      <header className=" top-0 flex justify-center items-center  w-full  border-gray-200 bg-[#202020]  sticky z-50">
+      <header className=" flex justify-center items-center  w-full  border-gray-200 bg-[#202020] px-10 md:px-0 sticky z-50">
         <nav className="container flex flex-wrap items-center justify-between py-10 ">
           {/* logo */}
           <a href="" className="flex items-center space-x-3 rtl:strokeLinejoin">

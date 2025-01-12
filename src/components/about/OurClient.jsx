@@ -61,7 +61,7 @@ const OurClient = () => {
   };
 
   return (
-    <section className="  justify-center items-center flex my-10 text-white  ">
+    <section className="  justify-center px-10 md:px-0 items-center flex py-10 text-white  ">
       <div className="container">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl font-bold ">What our clients say about us</h1>

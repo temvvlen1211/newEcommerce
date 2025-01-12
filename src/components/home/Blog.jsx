@@ -2,9 +2,9 @@ import React from "react";
 
 function Blog() {
   return (
-    <section className="flex items-center justify-center my-10">
+    <section className="flex items-center justify-center px-10 md:px-0 py-10">
       <div className="container text-white">
-        <div className="pb-10 uppercase ">
+        <div className="pb-10 uppercase  text-center">
           <h1 className="text-4xl font-bold">Our blog</h1>
           <p className="hidden">recentPosts</p>
         </div>
