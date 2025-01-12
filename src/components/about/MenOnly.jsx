@@ -9,7 +9,7 @@ function MenOnly() {
             <h1 className="text-4xl font-bold">
               professional barbershop for men only
             </h1>
-            <span className="hidden">barbercrop</span>
+            <span className="hidden">barbercropx</span>
           </div>
           <div className="max-w-2xl">
             <div className="flex gap-5 mb-10 ">
