@@ -1,10 +1,10 @@
 import React from "react";
 
-function Blog() {
+function OurBlog() {
   return (
-    <section className="flex items-center justify-center px-10 md:px-0 py-10">
+    <section className="flex items-center justify-center px-10 py-10 md:px-0">
       <div className="container text-white">
-        <div className="pb-10 uppercase  text-center">
+        <div className="pb-10 text-center uppercase">
           <h1 className="text-4xl font-bold">Our blog</h1>
           <p className="hidden">recentPosts</p>
         </div>
@@ -79,4 +79,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default OurBlog;

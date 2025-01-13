@@ -1,6 +1,6 @@
-import Blog from "../components/home/Blog";
 import Carousel from "../components/home/Carousel";
 import Hours from "../components/home/Hours";
+import OurBlog from "../components/home/OurBlog";
 import Professional from "../components/home/Professional";
 import Service from "../components/home/Service";
 
@@ -11,7 +11,7 @@ function Home() {
       <Professional />
       <Service />
       <Hours />
-      <Blog />
+      <OurBlog />
     </>
   );
 }
