@@ -6,6 +6,7 @@ const SinglePost = () => {
       <section className="flex items-center justify-center w-full">
         <div className="container">
           <h1>hello world!!</h1>
+          <article></article>
         </div>
       </section>
     </>

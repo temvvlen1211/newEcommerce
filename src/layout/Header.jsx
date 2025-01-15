@@ -10,7 +10,7 @@ function Header() {
           {/* logo */}
           <a href="" className="flex items-center space-x-3 rtl:strokeLinejoin">
             <Logo />
-            <span className="self-center text-2xl font-semibold uppercase whitespace-nowrap text-white">
+            <span className="self-center text-2xl font-semibold text-white uppercase whitespace-nowrap">
               barbercrop
             </span>
           </a>
@@ -45,15 +45,14 @@ function Header() {
                   Services
                 </li>
               </Link>
-              <li>
-                <a
-                  href="#"
-                  className="block md:bg-transparent md:text-white md:dark:text-white md:hover:text-red-500"
+              <Link to="/blog">
+                <li
                   aria-current="page"
+                  className=" md:bg-transparent md:text-white md:dark:text-white md:hover:text-red-500"
                 >
                   blog
-                </a>
-              </li>
+                </li>
+              </Link>
               <li>
                 <a
                   href="#"
