@@ -14,7 +14,7 @@ const SinglePost = () => {
               <p></p>
             </div>
             <aside className="w-1/3">
-              <form class="max-w-md mx-auto">
+              <form class="  ">
                 <label
                   for="default-search"
                   class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -54,7 +54,30 @@ const SinglePost = () => {
                   </button>
                 </div>
               </form>
-              <h1>recent post</h1>
+              <div className="grid gap-10">
+                <h1 className="uppercase">recent post</h1>
+                <article className="flex justify-between">
+                  <img className="w-1/3" src="/img/man1.jpg" alt="" />
+                  <div className="w-2/4">
+                    <h1>5 advantages why you should visit barbershop</h1>
+                    <p>13 October, 2021</p>
+                  </div>
+                </article>
+                <article className="flex justify-between">
+                  <img className="w-1/3" src="/img/man1.jpg" alt="" />
+                  <div className="w-2/4">
+                    <h1>5 advantages why you should visit barbershop</h1>
+                    <p>13 October, 2021</p>
+                  </div>
+                </article>
+                <article className="flex justify-between">
+                  <img className="w-1/3" src="/img/man1.jpg" alt="" />
+                  <div className="w-2/4">
+                    <h1>5 advantages why you should visit barbershop</h1>
+                    <p>13 October, 2021</p>
+                  </div>
+                </article>
+              </div>
             </aside>
           </div>
         </div>
