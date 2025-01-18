@@ -78,6 +78,37 @@ const SinglePost = () => {
                   </div>
                 </article>
               </div>
+              <div className=" uppercase">
+                <h1>Categories</h1>
+                <a href="">hairCut</a>
+                <a href="">BeardCare</a>
+                <a href="">cosmetics</a>
+              </div>
+              <div className="uppercase">
+                <h1>
+                  <button>hairstyle</button>
+                  <button>shave</button>
+                  <button> beard</button>
+                  <button>cosmetics</button>
+                  <button>dyeing</button>
+                  <button>mustache</button>
+                  <button>haircut</button>
+                </h1>
+              </div>
+              <div>
+                <h1>10%10%10%10%10%10%10%10%10%10%10%10%</h1>
+                <div className="flex justify-center items-center">
+                  <h1>Bring a friend and get a 10% discount card</h1>
+                  <p>Nullam feugiat integer mi enim arcu, interdum faucibus.</p>
+                  <button
+                    type="button"
+                    class="bg-gradient-to-r from-red-400 via-red-700 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm  p-3 text-center "
+                  >
+                    View services
+                  </button>
+                </div>
+                <h1>10%10%10%10%10%10%10%10%10%10%10%10%</h1>
+              </div>
             </aside>
           </div>
         </div>
